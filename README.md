@@ -33,8 +33,7 @@ El segundo práctico consiste en continuar el análisis y optimización de los m
    - Evaluación del sobreajuste mediante la comparación de las métricas de entrenamiento y validación.
 
 2. **Exploración de hiperparámetros:**
-   - Selección de uno de los algoritmos anteriores para explorar cómo los hiperparámetros afectan su rendimiento.
-   - Desarrollo de pruebas estadísticas para comparar los resultados.
+   - Probar diferentes hiperparámetros en los algoritmos anteriores para explorar cómo afectan su rendimiento.
 
 3. **Optimización de Hiperparámetros:**
    - Para el modelo con mejor rendimiento, se realiza una optimización de hiperparámetros utilizando tres enfoques:
