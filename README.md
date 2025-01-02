@@ -1,45 +1,46 @@
-# Proyecto de Predicción de Riesgo de Ataque Cardíaco
+# Heart Attack Risk Prediction Project
 
-Este repositorio contiene el desarrollo de un proyecto de predicción de riesgo de ataque cardiaco. A lo largo del proyecto se exploran y entrenan distintos modelos de clasificación utilizando varios algoritmos y técnicas de escalado. Además, se optimizan hiperparámetros y se comparan los rendimientos de los modelos a través de cross-validation y técnicas de optimización.
+This repository contains the development of a project aimed at predicting the risk of heart attacks. Throughout the project, various classification models are explored and trained using multiple algorithms and scaling techniques. Additionally, hyperparameter optimization is performed, and model performances are compared through cross-validation and optimization techniques.
 
-## Práctico 1: Exploración de datos y entrenamiento de Modelos
+## Practical 1: Data Exploration and Model Training
 
-En el primer práctico, se realiza una exploración de los datos y se entrena una serie de modelos predictivos utilizando distintos algoritmos de clasificación. Los modelos considerados son los siguientes:
+In the first practical session, data exploration is conducted, and a series of predictive models are trained using different classification algorithms. The models considered include:
 
-- **Regresión Logística**
-- **Árboles de Decisión**
-- **Máquinas de Soporte Vectorial (SVM)**
+- **Logistic Regression**
+- **Decision Trees**
+- **Support Vector Machines (SVM)**
 - **K-Nearest Neighbors (KNeighbors)**
 - **Random Forest**
 - **AdaBoost**
 
-### Escaladores Utilizados:
+### Scaling Techniques Used:
 - **StandardScaler**
 - **MinMaxScaler**
 - **RobustScaler**
 
-### Evaluación de Desempeños:
-Cada modelo se evalúa en términos de su rendimiento predictivo utilizando métricas como precisión, recall, F1-score y accuracy. Se evaluan con diferentes combinaciones de escaladores y modelos.
+### Performance Evaluation:
+Each model is evaluated in terms of predictive performance using metrics such as precision, recall, F1-score, and accuracy. Models are assessed with different combinations of scalers and algorithms.
 
 ---
 
-## Práctico 2: Optimización y evaluación de modelos
+## Practical 2: Model Optimization and Evaluation
 
-El segundo práctico consiste en continuar el análisis y optimización de los modelos utilizando los datos del primer práctico. Las tareas a desarrollar incluyen:
+The second practical session involves continuing the analysis and optimization of the models using data from the first session. The tasks to be performed include:
 
-1. **Selección de Algoritmos:**
-   - Selección de un algoritmo basado en distancias, uno basado en reglas, uno de transformación vectorial, un método de ensamble vía boosting y otro vía bagging.
-   - Entrenamiento de cada algoritmo con sus parámetros por defecto, seguido de la evaluación mediante cross-validation.
-   - Evaluación del sobreajuste mediante la comparación de las métricas de entrenamiento y validación.
+1. **Algorithm Selection:**
+   - Selection of one algorithm based on distances, one based on rules, one using vector transformation, one ensemble method via boosting, and another via bagging.
+   - Training each algorithm with default parameters, followed by evaluation using cross-validation.
+   - Overfitting analysis by comparing training and validation metrics.
 
-2. **Exploración de hiperparámetros:**
-   - Probar diferentes hiperparámetros en los algoritmos anteriores para explorar cómo afectan su rendimiento.
+2. **Hyperparameter Exploration:**
+   - Testing different hyperparameters on the aforementioned algorithms to explore their impact on performance.
 
-3. **Optimización de Hiperparámetros:**
-   - Para el modelo con mejor rendimiento, se realiza una optimización de hiperparámetros utilizando tres enfoques:
-     - **Optimización Bayesiana**
+3. **Hyperparameter Optimization:**
+   - For the best-performing model, hyperparameter optimization is carried out using three approaches:
+     - **Bayesian Optimization**
      - **GridSearch**
      - **HalvingGridSearch**
 
-4. **Evaluación con TPOT:**
-   - Ejecución de **TPOT** para realizar self-learning de modelos y comparar los rendimientos de los modelos.
+4. **Evaluation with TPOT:**
+   - Running **TPOT** to perform self-learning of models and compare model performances.
+
